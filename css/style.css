@@ -1,0 +1,42 @@
+@import 'reset.css';
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+nav {
+  margin: 0;
+  padding: 15px 0;
+}
+
+ul {
+  width: 960px;
+  margin: 0px auto;
+  height: 70px;
+}
+
+li {
+  display: inline-block;
+}
+
+#logo {
+  width: 200px;
+  height: 70px;
+  float: left;
+}
+
+li:not(#logo) {
+  width: 100px;
+  margin: 0 40px;
+  padding: 27px 0;
+  vertical-align: top;
+  text-align: center;
+}
