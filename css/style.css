@@ -13,7 +13,6 @@ body {
 }
 
 nav {
-  /* margin: 0 0 30px; */
   margin-bottom: 30px;
   padding: 15px 0;
   background-color: #333333;
@@ -57,7 +56,6 @@ main {
 
 #hero {
   height: 450px;
-  /* margin: 15px 0; */
   margin-bottom: 30px;
 }
 
@@ -69,7 +67,6 @@ main {
 .third {
   width: 300px;
   height: 375px;
-  display: inline-block;
   margin-left: 30px;
   float: left;
 }
@@ -86,7 +83,6 @@ main {
 .half {
   width: calc(480px - 30px);
   height: 400px;
-  display: inline-block;
   float: right;
 }
 
@@ -129,7 +125,6 @@ h2 {
 }
 
 footer {
-  /* margin: 30px 0 0 0; */
   height: 100px;
   background-color: #333333;
 }
