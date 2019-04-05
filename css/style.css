@@ -13,7 +13,8 @@ body {
 }
 
 nav {
-  margin: 0 0 15px;
+  /* margin: 0 0 30px; */
+  margin-bottom: 30px;
   padding: 15px 0;
   background-color: #333333;
 }
@@ -50,47 +51,46 @@ li a {
 
 main {
   width: 960px;
-  margin: 15px auto;
+  margin: 0 auto;
 }
 
 #hero {
   height: 450px;
+  /* margin: 15px 0; */
+  margin-bottom: 30px;
 }
 
 #cards {
-  height: 405px;
+  height: 375px;
+  margin-bottom: 30px;
 }
 
 .third {
   width: 300px;
+  height: 375px;
   display: inline-block;
-  margin: 15px 15px;
+  margin-left: 30px;
   float: left;
 }
 
 .third:nth-of-type(1) {
-  margin: 15px 15px 15px 0;
-}
-
-.third:nth-of-type(3) {
-  margin: 15px 0px 15px 15px;
+  margin-left: 0px;
 }
 
 #featured {
-  height: 430px;
+  height: 400px;
+  margin-bottom: 30px;
 }
 
 .half {
-  width: calc(480px - 15px);
+  width: calc(480px - 30px);
   height: 400px;
-  margin: 15px 0;
   display: inline-block;
   float: right;
 }
 
 .half:first-of-type {
   width: 480px;
-  margin: 15px 0;
   float: left;
 }
 
@@ -103,7 +103,7 @@ h2 {
 .featured-content {
   margin: 15px 0;
   overflow: scroll;
-  height: 316px;
+  height: 315px;
 }
 
 .featured-content p {
@@ -128,7 +128,7 @@ h2 {
 }
 
 footer {
-  margin: 15px 0 0 0;
+  /* margin: 30px 0 0 0; */
   height: 100px;
   background-color: #333333;
 }
