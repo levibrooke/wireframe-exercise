@@ -13,8 +13,9 @@ body {
 }
 
 nav {
-  margin: 0;
+  margin: 0 0 15px;
   padding: 15px 0;
+  background-color: #333333;
 }
 
 ul {
@@ -39,4 +40,95 @@ li:not(#logo) {
   padding: 27px 0;
   vertical-align: top;
   text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  color: #cccccc;
+  font-family: sans-serif;
+}
+
+main {
+  width: 960px;
+  margin: 15px auto;
+}
+
+#hero {
+  height: 450px;
+}
+
+#cards {
+  height: 405px;
+}
+
+.third {
+  width: 300px;
+  display: inline-block;
+  margin: 15px 15px;
+  float: left;
+}
+
+.third:nth-of-type(1) {
+  margin: 15px 15px 15px 0;
+}
+
+.third:nth-of-type(3) {
+  margin: 15px 0px 15px 15px;
+}
+
+#featured {
+  height: 430px;
+}
+
+.half {
+  width: calc(480px - 15px);
+  height: 400px;
+  margin: 15px 0;
+  display: inline-block;
+  float: right;
+}
+
+.half:first-of-type {
+  width: 480px;
+  margin: 15px 0;
+  float: left;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.375em;
+  font-family: sans-serif;
+}
+
+.featured-content {
+  margin: 15px 0;
+  overflow: scroll;
+  height: 316px;
+}
+
+.featured-content p {
+  margin-bottom: 1em;
+  font-style: italic;
+}
+
+#featured button {
+  padding: 8px 30px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 1.0);
+  color: #cccccc;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 350ms;
+}
+
+#featured button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: background-color 350ms;
+}
+
+footer {
+  margin: 15px 0 0 0;
+  height: 100px;
+  background-color: #333333;
 }
